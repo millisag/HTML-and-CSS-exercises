@@ -1,0 +1,82 @@
+h1 {
+    color: seagreen;
+    font-size: large;
+    background-color: mediumaquamarine;
+    
+}
+
+p {
+    color:rgb(1, 95, 95);
+    font-size: medium;
+    background-color: rgb(9, 224, 142);
+    
+    text-align: center;
+}
+
+.header {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    background-color: rgb(159, 238, 179);
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+    height: 100px;
+    
+}
+
+.container {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(159, 238, 179);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    
+}
+
+.footer {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(159, 238, 179);
+    text-align: center;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+    height: 100px;
+}
+
+.bio {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    background-color: rgb(159, 238, 179);
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+    height: 100px;
+}
+
+.list {
+    color: rgb(0, 0, 0);
+    font-size: large;
+    background-color: rgb(5, 170, 121);
+    padding: 20px;
+    place-items: center;
+}
+
+.contact-form {
+    background-color: rgb(4, 173, 151);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: grid; 
+    place-items: center;
+    justify-content: center;
+}
+
+.contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #007BFF; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    outline: none; 
+  }
+
