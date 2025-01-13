@@ -9,17 +9,16 @@ p {
     color:rgb(1, 95, 95);
     font-size: medium;
     background-color: rgb(9, 224, 142);
-    
-    text-align: center;
+    text-align: center; /* Center text on the page */
 }
 
 .header {
     color: rgb(0, 0, 0);
     font-size: x-large;
     background-color: rgb(159, 238, 179);
-    font-weight: bold;
-    display: grid;
-    place-items: center;
+    font-weight: bold; /* Make text bold */
+    display: grid; /* Use grid layout */
+    place-items: center; /* aligns content horizontally and vertically */
     height: 100px;
     
 }
@@ -28,8 +27,8 @@ p {
     color: rgb(0, 0, 0);
     font-size: large;
     background-color: rgb(159, 238, 179);
-    text-align: center;
-    font-weight: bold;
+    text-align: center; /* Center text on the page */
+    font-weight: bold; /* Make text bold */
     padding: 20px;
     
 }
@@ -38,21 +37,23 @@ p {
     color: rgb(0, 0, 0);
     font-size: large;
     background-color: rgb(159, 238, 179);
-    text-align: center;
-    font-weight: bold;
-    display: grid;
-    place-items: center;
+    text-align: center; /* Center text on the page */
+    font-weight: bold; /* Make text bold */
+    display: grid; /* Use grid layout */
+    place-items: center; /* aligns content horizontally and vertically */
     height: 100px;
+    position: relative; /* Position the footer relative to its normal position */
 }
 
 .bio {
     color: rgb(0, 0, 0);
     font-size: x-large;
     background-color: rgb(159, 238, 179);
-    font-weight: bold;
-    display: grid;
-    place-items: center;
+    font-weight: bold; /* Make text bold */
+    display: grid; /* Use grid layout */
+    place-items: center; /* aligns content horizontally and vertically */
     height: 100px;
+    padding: 20px;
 }
 
 .list {
@@ -60,23 +61,55 @@ p {
     font-size: large;
     background-color: rgb(5, 170, 121);
     padding: 20px;
-    place-items: center;
+    place-items: center; /* aligns content horizontally and vertically */
+    
 }
 
 .contact-form {
     background-color: rgb(4, 173, 151);
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    display: grid; 
-    place-items: center;
-    justify-content: center;
+    text-align: center; /* Center text on the page */
+    display: grid; /* Use grid layout */
+    place-items: center; /* aligns content horizontally and vertically */
+    justify-content: center; /* Center items horizontally */
+    
 }
 
 .contact-form input:focus,
   .contact-form textarea:focus {
     border-color: #007BFF; 
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
-    outline: none; 
+    outline: none; /* Remove default focus styling */
   }
 
+@media screen and (min-width: 600px) /* Apply styles for screens wider than 600px */ {
+    body {
+        background-color: rgb(212, 48, 163);
+        font-size: large;
+        padding: 10px;
+    }
+}
+
+.nav {
+    display: flex; /* Arrange items horizontally */
+    justify-content: center; /* Center items horizontally */
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+  }
+
+  .nav li {
+    list-style-type: none; /* Remove bullets */
+  }
+
+  .nav a {
+    display: block; /* Make link fill its parent */
+    text-decoration: none; /* Remove underline */
+    color: white;
+    padding: 10px 20px; /* Add spacing */
+  }
+
+  .nav a:hover {
+    background-color: #470aee; /* Highlight on hover */
+  }
